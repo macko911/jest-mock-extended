@@ -13,10 +13,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "prepare": "npm run build",
     "clean": "rimraf coverage lib",
     "test": "jest",
-    "build": "tsc",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
